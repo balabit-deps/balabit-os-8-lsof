@@ -1,3 +1,14 @@
+lsof (4.93.2+dfsg-1ubuntu0.20.04.1) focal; urgency=medium
+
+  * d/rules:
+    - Use soelim to fix unreadable manpage.
+      (Closes: #950601) (LP: #1893513)
+
+  * d/control:
+    - soelim depends on groff-base.
+
+ -- Eric Desrochers <eric.desrochers@canonical.com>  Fri, 25 Dec 2020 11:57:35 -0500
+
 lsof (4.93.2+dfsg-1) unstable; urgency=low
 
   * New upstream release.
